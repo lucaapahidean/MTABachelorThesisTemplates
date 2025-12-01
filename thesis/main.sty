@@ -1,6 +1,7 @@
 \ProvidesPackage{main}
 
 % Packages
+\usepackage[romanian]{babel}
 \usepackage[
     backend=bibtex,
     style=numeric,
@@ -36,7 +37,7 @@
 % Title's format
 \titleformat{\chapter}[display]
     {\bfseries\huge}
-    {Capitolul \thechapter:}
+    {\chaptertitlename\ \thechapter:}
     {0pt}
     {}
 
